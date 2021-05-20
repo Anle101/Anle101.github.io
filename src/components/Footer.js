@@ -3,10 +3,15 @@ import {Button} from './Button';
 import './Footer.css';
 import {Link} from 'react-router-dom';
 import Pdf from '../Documents/Resume2021.pdf';
+import { Parallax } from 'react-scroll-parallax';
+
 
 function Footer() {
     return (
+        <Parallax className="custom-class" y={[0, 10]} tagOuter="figure">
+     
         <div className= 'footer-container'>
+            <h1> Find me on other platforms !</h1>
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="social-icons">
@@ -18,7 +23,7 @@ function Footer() {
                 </div>
             </section>
         </div>
-
+        </Parallax>
     );
 }
 
