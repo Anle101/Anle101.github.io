@@ -1,0 +1,30 @@
+.experience-container { 
+    background: #CECECE;
+    color:#000;
+    display:flex;
+}
+
+.experience-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   margin: 20px 450px;
+}
+
+.job-list {
+    display: flex;
+}
+
+.experience-wrapper h3 { 
+    align-self: left;
+}
+.experience-container h1{ 
+    color:#000;
+}
+
+.job-header { 
+    margin: 50px;
+}
+

@@ -35,21 +35,33 @@ import { Button } from './Button';
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to="/" className='nav-links' onClick={closeMobileMenu}>
-                                Home
+                                About Me
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/projects" className='nav-links' onClick={closeMobileMenu}>
-                                Projects
+                            <Link to="/skills" className='nav-links' onClick={closeMobileMenu}>
+                                Skills
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to="/aboutme" className='nav-links' onClick={closeMobileMenu}>
-                                About Me
+                                Work Experience
+                            </Link>
+                        </li>
+
+                        <li className='nav-item'>
+                            <Link to="/aboutme" className='nav-links' onClick={closeMobileMenu}>
+                                Projects
+                            </Link>
+                        </li>
+
+                        <li className='nav-item'>
+                            <Link to="/aboutme" className='nav-links' onClick={closeMobileMenu}>
+                                Contact Me
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'> Test Button </Button>}
+                   {/* {button && <Button buttonStyle='btn--outline'> Test Button </Button>}*/}
             
                 </div>
             </nav> 

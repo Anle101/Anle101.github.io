@@ -10,22 +10,20 @@ import { Parallax } from 'react-scroll-parallax';
 function MainSection() {
 
     return (
-        <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
+        {/*<Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">*/},
      
         <div className='main-container'>
-            <h1>Website Developer</h1>
-
+            <h1>An Le</h1>
+            <h5>Nice to see you here !</h5>
             
-            <img src={logo} className="picture" />
+         
             <div className="main-btns">
 
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                    Hi!
-                </Button>
+               
 
             </div>
         </div>
-        </Parallax>
+      
     );
 }
 
