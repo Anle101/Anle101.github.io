@@ -10,7 +10,7 @@
     justify-content: center;
     
     
-   margin: 20px 450px;
+   margin: 0px 450px;
 }
 
 .job-list {
@@ -19,12 +19,61 @@
 
 .experience-wrapper h3 { 
     align-self: left;
+   
 }
 .experience-container h1{ 
     color:#000;
 }
 
 .job-header { 
-    margin: 50px;
+    align-self: center;
+    padding: 35px 0px;
+    margin: 40px 50px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.job-section { 
+    margin: 40px 0px;
+}
+
+.job-length { 
+    color: #008744;
+    font-style: italic;
+    margin: 10px 0px;
+}
+@media screen and (max-width: 1580px) {
+    .experience-wrapper {
+        margin: 0px 180px;
+    }
+    .job-header { 
+        margin: 100px 100px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .experience-wrapper {
+        margin: 0px  120px;
+    }
+    .job-header { 
+        margin: 100px 100px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .experience-wrapper {
+        margin: 0px 20px;
+    }
+    .job-header { 
+        margin: 100px 70px ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .experience-wrapper {
+        margin: 0px 20px;
+    }
+    .job-header { 
+        margin: 100px 30px ;
+    }
 }
 

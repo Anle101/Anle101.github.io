@@ -44,8 +44,8 @@ import { Button } from './Button';
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/aboutme" className='nav-links' onClick={closeMobileMenu}>
-                                Work Experience
+                            <Link to="/experience" className='nav-links' onClick={closeMobileMenu}>
+                                Experience
                             </Link>
                         </li>
 
