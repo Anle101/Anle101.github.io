@@ -1,0 +1,94 @@
+.project-container { 
+    background: #b7b7b7;
+    color:#000;
+    display:flex;
+    padding-bottom:40px;
+}
+
+.project-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    margin: 0px 450px;
+    
+}
+
+.job-list {
+    display: flex;
+}
+
+.project-wrapper h3 { 
+    align-self: left;
+   
+}
+.project-container h1{ 
+    color:#000;
+}
+
+.job-header { 
+    align-self: center;
+    padding: 35px 0px;
+    margin: 40px 50px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.job-section { 
+    margin: 40px 0px;
+}
+
+.project-type { 
+    color: #0072E0;
+    font-style: italic;
+    margin: 10px 0px;
+}
+@media screen and (max-width: 1580px) {
+    .project-wrapper {
+        margin: 0px 180px;
+    }
+    .job-header { 
+        padding: 10px 0px;
+        margin: 100px 100px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .project-wrapper {
+        margin: 0px  120px;
+    }
+    .job-header { 
+        padding: 10px 0px;
+        margin: 100px 100px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .project-wrapper {
+        margin: 0px 20px;
+    }
+    .job-header { 
+        padding: 10px 0px;
+        margin: 100px 70px ;
+    }
+}
+@media screen and (max-width: 840px) {
+    .project-wrapper {
+        margin: 0px 20px;
+    }
+    .job-header { 
+        padding: 20px 0px;
+        margin: 100px 30px ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-wrapper {
+        margin: 0px 20px;
+    }
+    .job-header { 
+        padding: 70px 0px;
+        margin: 100px 30px ;
+    }
+}
+
