@@ -1,18 +1,17 @@
 .skill-container { 
-    background: #fff;
+    background: #E5E5E5;
     height:55%;
-    margin: 10px 0px 10px;
+
     
 
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-     color: #222;
+    color: #222;
 }
 .skill-container h1 { 
     color: #222;
-    
 }
 
 .skill-container hr { 
@@ -54,9 +53,9 @@
 }
 
 .concept-container { 
-    background: #E5E5E5;
+    background: #cccccc;
     height: 40%;
-    margin: 10px 0px 0px;
+    margin: 0px 0px 0px;
     padding-bottom: 10px;
     padding-top: 10px;
     display: flex;
