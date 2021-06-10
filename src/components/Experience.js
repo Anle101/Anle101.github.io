@@ -1,6 +1,6 @@
 import React from 'react'
 import './Experience.css'
-
+import {uwindsor} from './Uwindsorlogo.png';
 function Experience() {
     return (
         <div className="experience-container">
@@ -10,7 +10,7 @@ function Experience() {
                 <div className="job-list">
                     <div className="header-list flex-table column">
                         <div className="job-header ">
-                            <div>University of Windsor</div>
+                            <div className="location">University of Windsor</div>
                             
                         </div>
                         <div className="job-header">

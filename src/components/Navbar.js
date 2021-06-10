@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './Navbar.css';
 import { Button } from './Button';
 import {animateScroll as scroll} from 'react-scroll';
+import {scrollToComponent} from 'react-scroll-to-component';
 
  function Navbar() {
      const [click, setClick] = useState(false);
@@ -24,13 +25,55 @@ import {animateScroll as scroll} from 'react-scroll';
          closeMobileMenu();
      }
 
-     const toggleSkill = () => {
-        scroll.scrollTo(1000);
+     const toggleAboutme = () => {
+         if (window.innerWidth <= 768) {
+            scroll.scrollTo(890);
+         }
+         else if (window.innerWidth <= 960) {
+            scroll.scrollTo(890);
+         }
+         else if (window.innerWidth <= 1468) { //
+            scroll.scrollTo(890);
+         }
+         else {
+            scroll.scrollTo(1010);
+         }
+        
         closeMobileMenu();
      }
 
+     const toggleSkill = () => {
+        if (window.innerWidth <= 768) {
+            scroll.scrollTo(1550);
+         }
+         else if (window.innerWidth <= 960) {
+            scroll.scrollTo(1400);
+         }
+         else if (window.innerWidth <= 1468) { //
+            scroll.scrollTo(1220);
+         }
+         else {
+            scroll.scrollTo(1310);
+         }
+     
+        closeMobileMenu();
+     }
+
+     
      const toggleExperience = () => {
-        scroll.scrollTo(1840);
+        if (window.innerWidth <= 768) {
+            scroll.scrollTo(2380);
+         }
+         else if (window.innerWidth <= 960) {
+            scroll.scrollTo(2220);
+         }
+         else if (window.innerWidth <= 1468) { //
+            scroll.scrollTo(2020);
+         }
+         else {
+            scroll.scrollTo(2140);
+         }
+        
         closeMobileMenu();
     }
 
@@ -54,11 +97,11 @@ import {animateScroll as scroll} from 'react-scroll';
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        {/*<li className='nav-item'>
-                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item'>
+                            <Link to="/" className='nav-links' onClick={toggleAboutme}>
                                 About Me
                             </Link>
-     </li>*/}
+                         </li>
                         <li className='nav-item'>
                             <Link to="/" className='nav-links' onClick={toggleSkill}>
                                 Skills

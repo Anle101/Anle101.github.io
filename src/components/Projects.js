@@ -15,14 +15,14 @@ function Projects() {
                             <div  className="job-section">
                                 <h3>Process Flow Manager</h3>
                                
-                                <p className="project-type">Web Application</p>
+                                <p className="project-type"> Professional Project - Web Application</p>
 
                                 <p>
                                     The Process Flow Manager was the web application that I worked on during my time at Statistics Canada. Due to the nature of
                                     the project, there were many web development skills that I developed while working on it. The application allowed for the employees
                                     at Statistcs Canada to perform automated scanning of the many surveys that the organization gives out. Due to the importance of this
                                     application, I worked closely with the clients on this project and met them weekly. Thanks to this project, I learned many technical skills
-                                    as well as interpersonal skills.
+                                    as well as interpersonal skills. The project involved HTML5, CSS3, Jquery, AJAX, and the MVC model.
                                 </p>    
                             </div>
                         </div>
@@ -31,7 +31,7 @@ function Projects() {
                             <div className="job-section">
                                 <h3>Mimic E-Commerce Website</h3>
 
-                                <p className="project-type"><a href="http://le11x.myweb.cs.uwindsor.ca/COMP-2707-F20/Project/PHP/index.php">Access the website here </a></p>
+                                <p className="project-type"> Personal Project - <a href="http://le11x.myweb.cs.uwindsor.ca/COMP-2707-F20/Project/PHP/index.php">Access the website here </a></p>
 
                                 <p>
                                     After working at Statistics Canada, I realized that I should focus on developing my web development abilities on my own. This lead me
@@ -41,7 +41,19 @@ function Projects() {
                             </div>
                         </div>
                       
-                        
+                        <div className="job-information">
+                            <div className="job-section">
+                                <h3>Portfolio Website</h3>
+
+                                <p className="project-type">Personal Project - You're already here!</p>
+
+                                <p>
+                                    For a long time, I realized that I did not have an online portfolio for myself. As an upcoming web developer, this seemed almost like a crime! So I took the time
+                                    create this portfolio website that allows for a convenient and easy way to advertise myself. I also used this website as an opportunity to start to learn ReactJS, which
+                                    is currently one of the most popular frameworks for web development right now. Therefore, the creation of this site involved HTML5, CSS3, and ReactJS.
+                                </p>    
+                            </div>
+                        </div>
                     </div>
                    
                 </div>

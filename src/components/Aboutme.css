@@ -1,7 +1,85 @@
 .aboutme-container {
     background-color: #fff;
+    color:#000;
+    display: flex;
+    justify-content: center;
+  
 }
 
+.aboutme-wrapper { 
+    display: flex;
+    flex-direction: column;
+  
+    width: 50%;
+    margin-bottom:20px;
+}
+
+.aboutmetable { 
+    display: flex;
+    
+    justify-content: center;
+}
+.profile { 
+    margin: 20px;
+}
+.profile img  { 
+
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    border: 2px solid #ddd;
+}
 .aboutme-container h1 {
     color: #000;
+}
+
+.aboutmesection h3{ 
+    margin: 20px;
+    text-align:center;
+}
+
+@media screen and (max-width:1468px) {
+    .aboutme-wrapper { 
+        width: 80%;
+    }
+    .aboutmetable { 
+        display: flex;
+        justify-content: center;
+    }
+    .profile { 
+        align-self: center;
+        margin: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:960px) {
+    .aboutme-wrapper { 
+        width: 80%;
+    }
+    .aboutmetable { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profile { 
+        align-self: center;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .aboutme-wrapper { 
+        width: 80%;
+    }
+    .aboutmetable { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profile { 
+        align-self: center;
+        margin: 20px;
+    }
 }

@@ -9,7 +9,7 @@ function Home() {
     return ( 
         <>
             <MainSection />
-            {/*<Aboutme />*/}
+            <Aboutme />
             <Skills />
             <Experience />
             <Projects />
