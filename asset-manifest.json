@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/resume-reactwebsite/static/css/main.12e9833d.chunk.css",
-    "main.js": "/resume-reactwebsite/static/js/main.675d639d.chunk.js",
-    "main.js.map": "/resume-reactwebsite/static/js/main.675d639d.chunk.js.map",
-    "runtime-main.js": "/resume-reactwebsite/static/js/runtime-main.5f95a54d.js",
-    "runtime-main.js.map": "/resume-reactwebsite/static/js/runtime-main.5f95a54d.js.map",
-    "static/js/2.7989b2f2.chunk.js": "/resume-reactwebsite/static/js/2.7989b2f2.chunk.js",
-    "static/js/2.7989b2f2.chunk.js.map": "/resume-reactwebsite/static/js/2.7989b2f2.chunk.js.map",
-    "index.html": "/resume-reactwebsite/index.html",
-    "static/css/main.12e9833d.chunk.css.map": "/resume-reactwebsite/static/css/main.12e9833d.chunk.css.map",
-    "static/js/2.7989b2f2.chunk.js.LICENSE.txt": "/resume-reactwebsite/static/js/2.7989b2f2.chunk.js.LICENSE.txt",
-    "static/media/Resume2021.a511d585.pdf": "/resume-reactwebsite/static/media/Resume2021.a511d585.pdf",
-    "static/media/Uwindsorlogo.a8c9b307.png": "/resume-reactwebsite/static/media/Uwindsorlogo.a8c9b307.png",
-    "static/media/MainSection.css": "/resume-reactwebsite/static/media/background.cdf52d22.jpg"
+    "main.css": "/Resume-reactwebsite/static/css/main.84e1b639.chunk.css",
+    "main.js": "/Resume-reactwebsite/static/js/main.eaa95139.chunk.js",
+    "main.js.map": "/Resume-reactwebsite/static/js/main.eaa95139.chunk.js.map",
+    "runtime-main.js": "/Resume-reactwebsite/static/js/runtime-main.db1e3611.js",
+    "runtime-main.js.map": "/Resume-reactwebsite/static/js/runtime-main.db1e3611.js.map",
+    "static/js/2.394fc707.chunk.js": "/Resume-reactwebsite/static/js/2.394fc707.chunk.js",
+    "static/js/2.394fc707.chunk.js.map": "/Resume-reactwebsite/static/js/2.394fc707.chunk.js.map",
+    "index.html": "/Resume-reactwebsite/index.html",
+    "static/css/main.84e1b639.chunk.css.map": "/Resume-reactwebsite/static/css/main.84e1b639.chunk.css.map",
+    "static/js/2.394fc707.chunk.js.LICENSE.txt": "/Resume-reactwebsite/static/js/2.394fc707.chunk.js.LICENSE.txt",
+    "static/media/Resume2021.a511d585.pdf": "/Resume-reactwebsite/static/media/Resume2021.a511d585.pdf",
+    "static/media/Uwindsorlogo.a8c9b307.png": "/Resume-reactwebsite/static/media/Uwindsorlogo.a8c9b307.png",
+    "static/media/MainSection.css": "/Resume-reactwebsite/static/media/background.cdf52d22.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5f95a54d.js",
-    "static/js/2.7989b2f2.chunk.js",
-    "static/css/main.12e9833d.chunk.css",
-    "static/js/main.675d639d.chunk.js"
+    "static/js/runtime-main.db1e3611.js",
+    "static/js/2.394fc707.chunk.js",
+    "static/css/main.84e1b639.chunk.css",
+    "static/js/main.eaa95139.chunk.js"
   ]
 }
