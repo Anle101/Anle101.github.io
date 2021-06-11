@@ -19,10 +19,7 @@ class App extends React.Component {
             <ParallaxProvider>
                 <Router>
                     <Navbar />
-                    <Switch >
-                        <Route path='/' exact ={true} component = {Home} />
-                    
-                    </Switch>
+                    <Home />
                     <Footer />
                 </Router>
             </ParallaxProvider>

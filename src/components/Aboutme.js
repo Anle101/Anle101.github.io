@@ -1,6 +1,5 @@
 import React from 'react'
 import './Aboutme.css';
-import logo from './profile.jpg';
 
 function Aboutme() {
     return (
@@ -11,7 +10,7 @@ function Aboutme() {
 
                     <div className="aboutmetable flex-table row">
                         <div className="profile">
-                            <img src={logo}></img>
+                            <img src={process.env.PUBLIC_URL + "/profile.jpg"} alt="profile picture"></img>
                         </div>
                    
                         <div className="aboutmesection">

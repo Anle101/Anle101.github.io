@@ -1,5 +1,6 @@
 {
-  "name": "react-resumewebsite",
+  "homepage": "http://Anle101.github.io/Resume-reactwebsite",
+  "name": "Resume-reactwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
-  },
-  "homepage": "http://anle101.github.io/"
+    "gh-pages": "^3.2.0"
+  }
 }
