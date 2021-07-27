@@ -19,16 +19,9 @@ function MainSection() {
     }, []);
 
     return (
-      
             <div className='main-container' style={{transform: `translateY(${offsetY * 0.5}px)`, position: 'relative', zIndex:-1}}>
                 <h1>An Le</h1>
                 <h5>Nice to see you here!</h5>
-
-                <div className="main-btns">
-
-                
-
-                </div>
             </div>
        
     );

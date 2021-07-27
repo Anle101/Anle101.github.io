@@ -11,7 +11,7 @@ function Projects() {
                 <div className="job-list">
                     
                    <div className="information list flex-table column">
-                        <div className="job-information">
+                        <div className="project-information">
                             <div  className="job-section">
                                 <h3>Process Flow Manager</h3>
                                
@@ -27,25 +27,33 @@ function Projects() {
                             </div>
                         </div>
 
-                        <div className="job-information">
+                        <div className="project-information">
                             <div className="job-section">
                                 <h3>Mimic E-Commerce Website</h3>
 
-                                <p className="project-type"> Personal Project - <a href="http://le11x.myweb.cs.uwindsor.ca/COMP-2707-F20/Project/PHP/index.php">Access the website here </a></p>
+                                <p className="project-type"> Personal Project - Website<a href="http://le11x.myweb.cs.uwindsor.ca/COMP-2707-F20/Project/PHP/index.php" className="code-button">Access the website here </a>
+                                
+                                <a href="https://github.com/Anle101/Mimic-Ecommerce-Site---ECART" className="code-button"> View on GitHub </a>
+                                
+                                </p>
 
                                 <p>
                                     After working at Statistics Canada, I realized that I should focus on developing my web development abilities on my own. This lead me
                                     to spending time on my own developing a website on my own time. I attempted to create a E-Commerce website using many technologies such
-                                    as SQL, PHP, HTML, CSS, SCSS/SASS, and Jquery. It helped me understand the connections between databases and websites.
+                                    as SQL, PHP, HTML, CSS, SCSS/SASS, Bootstrap, and JQuery. It helped me understand the connections between databases and websites.
                                 </p>    
+                                
                             </div>
                         </div>
                       
-                        <div className="job-information">
+                        <div className="project-information">
                             <div className="job-section">
                                 <h3>Portfolio Website</h3>
-
-                                <p className="project-type">Personal Project - You're already here!</p>
+                                
+                                <p className="project-type">Personal Project - Website
+                                
+                                    <a href="https://github.com/Anle101/Anle101.github.io/tree/master" className="code-button"> View on GitHub </a>
+                                </p>
 
                                 <p>
                                     For a long time, I realized that I did not have an online portfolio for myself. As an upcoming web developer, this seemed almost like a crime! So I took the time

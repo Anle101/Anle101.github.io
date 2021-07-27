@@ -44,13 +44,13 @@ import {scrollToComponent} from 'react-scroll-to-component';
 
      const toggleSkill = () => {
         if (window.innerWidth <= 768) {
-            scroll.scrollTo(1550);
+            scroll.scrollTo(1650);
          }
          else if (window.innerWidth <= 960) {
             scroll.scrollTo(1400);
          }
          else if (window.innerWidth <= 1468) { //
-            scroll.scrollTo(1220);
+            scroll.scrollTo(1300);
          }
          else {
             scroll.scrollTo(1310);
@@ -62,16 +62,16 @@ import {scrollToComponent} from 'react-scroll-to-component';
      
      const toggleExperience = () => {
         if (window.innerWidth <= 768) {
-            scroll.scrollTo(2380);
-         }
-         else if (window.innerWidth <= 960) {
-            scroll.scrollTo(2220);
-         }
-         else if (window.innerWidth <= 1468) { //
             scroll.scrollTo(2020);
          }
+         else if (window.innerWidth <= 960) {
+            scroll.scrollTo(1860);
+         }
+         else if (window.innerWidth <= 1468) { //
+            scroll.scrollTo(1660);
+         }
          else {
-            scroll.scrollTo(2140);
+            scroll.scrollTo(1640);
          }
         
         closeMobileMenu();

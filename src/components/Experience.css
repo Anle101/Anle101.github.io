@@ -17,6 +17,7 @@
     display: flex;
 }
 
+
 .experience-wrapper h3 { 
     align-self: left;
    
@@ -25,7 +26,19 @@
     color:#000;
 }
 
+.job-information { 
+    margin:40px;
+    padding: 20px;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    transition:0.5s ease-in-out;
+}
+.job-information:hover { 
+    padding: 30px;
+}
 .job-header { 
+    margin:40px;
+    padding: 20px;
     align-self: center;
     padding: 35px 0px;
     margin: 40px 50px;

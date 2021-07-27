@@ -8,28 +8,13 @@ function Experience() {
                 <h1>Experience</h1>
                 
                 <div className="job-list">
-                    <div className="header-list flex-table column">
-                        <div className="job-header ">
-                            <div className="location">University of Windsor</div>
-                            
-                        </div>
-                        <div className="job-header">
-                            <div>Statistics Canada</div>
-                            
-                        </div>
-                        <div className="job-header">
-                            <div>Windsor-Detroit Bridge Authority</div>
-                            
-                        </div>
-                 
-                    </div>
-                   
+                  
                    <div className="information list flex-table column">
                         <div className="job-information">
                             <div  className="job-section">
                                 <h3>Undergraduate Teaching Assistant</h3>
-                               
-                                <p className="job-length">September 2018 – May 2021</p>
+                                
+                                <p className="job-length">September 2018 – May 2021 | <b>University of Windsor</b></p>
 
                                 <p>
                                     As an Undergraduate Teaching Assistant, I would be teaching many students concepts that would pertain to the 
@@ -43,7 +28,7 @@ function Experience() {
                             <div className="job-section">
                                 <h3>Front-End Web Application Developer</h3>
 
-                                <p className="job-length">January 2020 – August 2020</p>
+                                <p className="job-length">January 2020 – August 2020 | <b>Statistics Canada</b></p>
 
                                 <p>
                                     As part of my second co-op term, I found myself working for Statistics Canada as a Front-End Web Application Developer. The project that I was working on during my time there 
@@ -57,7 +42,7 @@ function Experience() {
                             <div  className="job-section">
                                 <h3>IT/Facilities Support</h3>
 
-                                <p className="job-length">May 2019 – August 2019</p>
+                                <p className="job-length">May 2019 – August 2019 | <b>Windsor-Detroit Bridge Authority</b></p>
 
                                 <p>
                                     For my first co-op term, I worked as an IT/Facilities Support, which meant that I performed a large variety of different tasks. I helped many of the employees 
