@@ -15,9 +15,10 @@ function Aboutme() {
                    
                         <div className="aboutmesection">
                             <h3>I am an aspiring web developer. I am knowledgable in many front-end web technologies, such as HTML5, CSS3, and so forth. One of the things that I appreciate greatly
-                                is working in a team. Tackling technical issues with more than one mind always accelerates the process, and helps everyone in the team progress! Besides that, I 
-                                absolutely love having good documentation for any application. This allows for the work to be packed into a clear and concentrated package that can help both existing 
-                                developers as well as new ones. Quality is the most important aspect of any project, and I am all for that.
+                                is working in a team. Tackling technical issues with more than one mind always accelerates the process, and the process of bouncing ideas off one another allows 
+                                everyone to learn! My desire to learn
+                                and enhance my abilities is the number one drive for me right now. I have many aspects of my development career that can still improve, and I don't think I will ever become complacent.
+                                The software development path is one of constant learning, and I personally always welcome new challenges.
                             </h3>
                         </div>
                     </div>
