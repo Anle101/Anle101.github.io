@@ -67,7 +67,7 @@ function Projects() {
                             <div className="job-section">
                                 <h3>Unmatched Matchup Picker</h3>
                                 
-                                <p className="project-type">Personal Project - Web Application
+                                <p className="project-type">Personal Project - Web Application <a href="https://anle101.github.io/Unmatched-Matchup-Picker/" className="code-button">Access the website here </a>
                                 
                                     <a href="https://github.com/Anle101/Unmatched-Matchup-Picker" className="code-button"> View on GitHub </a>
                                 </p>
