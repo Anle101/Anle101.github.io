@@ -87,7 +87,7 @@ function Projects() {
                                 
                                 <p className="project-type">Collaborative Project - Web Application
                                 
-                                    <a href="https://github.com/jalalshabo/Twitter-Topic-Tracking/tree/web-app" className="code-button"> View on GitHub </a>
+                                    <a href="https://github.com/jalalshabo/Twitter-Topic-Tracking/tree/web-app" className="code-button"><a href="https://jalalshabo.github.io/Twitter-Topic-Tracking/" className="code-button">Access the website here </a> View on GitHub </a>
 
                                     Role: Front-End Developer
                                 </p>
